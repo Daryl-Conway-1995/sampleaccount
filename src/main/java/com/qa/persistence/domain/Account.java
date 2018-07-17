@@ -20,9 +20,9 @@ public class Account {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Id
 	private Long id;
-	@Column (length=50)
+	@Column (length=60)
 	private String firstName;
-	@Column (length=50)
+	@Column (length=60)
 	private String secondName;
 	@Digits(integer = 6, fraction = 0)
 	private String accountNumber;
